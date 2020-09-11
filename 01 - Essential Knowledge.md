@@ -5,12 +5,12 @@
 | Layer | Description  | Technologies    | Data Unit | Layer | Description    | OSI Layer Equivalent |
 | ----- | ------------ | --------------- | --------- | ----- | -------------- | -------------------- |
 | 1     | Physical     | USB, Bluetooth  | Bit       | 1     | Network Access | 1, 2                 |
-| 2     | Data Link    | ARP, PPP        | Frame     | 2     | Internet       | 3                    |
-| 3     | Network      | IP              | Packet    | 3     | Transport      | 4                    |
-| 4     | Transport    | TCP             | Segment   | 4     | Application    | 5-7                  |
-| 5     | Session      | X255, SCP       | Data      | 4     | Application    | 5-7                  |
+| 2     | Data Link    | ARP, PPP        | Frame     | 2     |                |                      |
+| 3     | Network      | IP              | Packet    | 3     | Internet       | 3                    |
+| 4     | Transport    | TCP             | Segment   | 4     | Transport      | 4                    | 
+| 5     | Session      | X255, SCP       | Data      | 4     |                | 5-7                  |
 | 6     | Presentation | AFP, MIME       | Data      | 4     | Application    | 5-7                  |
-| 7     | Application  | FTP, HTTP, SMTP | Data      | 4     | Application    | 5-7                  |
+| 7     | Application  | FTP, HTTP, SMTP | Data      | 4     |                | 5-7                  |
 
 ### <u>TCP/IP Model</u>
 
