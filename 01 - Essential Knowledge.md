@@ -1,8 +1,8 @@
 # Essential Knowledge
 
-### <u>The OSI Reference Model and TCP/IP Mode</u>
+### <u>The OSI Reference Model and TCP/IP Model</u>
 
-| Layer | Description  | Technologies    | Data Unit | Layer | Description    | OSI Layer Equivalent |
+| Layer | OSI          | Technologies    | Data Unit | Layer | TCP/IP         | OSI Layer Equivalent |
 | ----- | ------------ | --------------- | --------- | ----- | -------------- | -------------------- |
 | 1     | Physical     | USB, Bluetooth  | Bit       | 1     | Network Access | 1, 2                 |
 | 2     | Data Link    | ARP, PPP        | Frame     |       |                |                      |
