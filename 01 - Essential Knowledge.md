@@ -2,24 +2,24 @@
 
 ### <u>The OSI Reference Model</u>
 
-| Layer | Description  | Technologies    | Data Unit |
-| ----- | ------------ | --------------- | --------- |
-| 1     | Physical     | USB, Bluetooth  | Bit       |
-| 2     | Data Link    | ARP, PPP        | Frame     |
-| 3     | Network      | IP              | Packet    |
-| 4     | Transport    | TCP             | Segment   |
+| Layer | Description  | Technologies    | Data Unit | | Layer | Description    | OSI Layer Equivalent |
+| ----- | ------------ | --------------- | --------- | | ----- | -------------- | -------------------- |
+| 1     | Physical     | USB, Bluetooth  | Bit       | | 1     | Network Access | 1, 2                 |
+| 2     | Data Link    | ARP, PPP        | Frame     | | 2     | Internet       | 3                    |
+| 3     | Network      | IP              | Packet    | | 3     | Transport      | 4                    |
+| 4     | Transport    | TCP             | Segment   | | 4     | Application    | 5-7                  |
 | 5     | Session      | X255, SCP       | Data      |
 | 6     | Presentation | AFP, MIME       | Data      |
 | 7     | Application  | FTP, HTTP, SMTP | Data      |
 
 ### <u>TCP/IP Model</u>
 
-| Layer | Description    | OSI Layer Equivalent |
-| ----- | -------------- | -------------------- |
-| 1     | Network Access | 1, 2                 |
-| 2     | Internet       | 3                    |
-| 3     | Transport      | 4                    |
-| 4     | Application    | 5-7                  |
+
+
+
+
+
+
 
 ### <u>TCP Handshake</u>
 
